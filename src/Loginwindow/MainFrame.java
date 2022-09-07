@@ -41,7 +41,8 @@ public class MainFrame extends JFrame{
 
         okButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                System.exit(0);
+                Mainwindow.MainFrame myframe = new Mainwindow.MainFrame();
+
             }
         });
         cancelButton.addActionListener(new ActionListener() {
